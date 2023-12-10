@@ -4,7 +4,7 @@ Culturally neutral alphabetical keyboard layout.
 
 Version 1 (231210) :
 
-[![Cfilorux keyboard layout image](/wm_key_layout_cfilorux.png "Cfilorux keyboard layout")](http://www.keyboard-layout-editor.com/#/gists/957010bea346a628fdf7c3832358589b)
+[![Cfilorux keyboard layout image](./img/wm_key_layout_cfilorux.png "Cfilorux keyboard layout")](http://www.keyboard-layout-editor.com/#/gists/957010bea346a628fdf7c3832358589b)
 
 ## Goals
 
@@ -40,7 +40,7 @@ Even [Bépo] and [Dvorak] have various versions.
 
 * As for the ergonomic orientation, I took the hint from [A4Tech]'s "[Natural_A]" keyboard's trapezoidal shaped keycaps.
 
-![Natural A keyboard image](/2511424930545969.jpg "A4Tech's patented Natural_A keycap shape")
+![Natural A keyboard image](./img/2511424930545969.jpg "A4Tech's patented Natural_A keycap shape")
 
 [A4Tech]: https://www.a4tech.com/
 [Natural_A]: https://www.a4tech.com/search.aspx?key=natural_a

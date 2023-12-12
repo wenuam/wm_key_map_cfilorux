@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
      showgrid="false"
-     inkscape:zoom="0.88640325"
-     inkscape:cx="632.89479"
-     inkscape:cy="232.39987"
+     inkscape:zoom="2.507127"
+     inkscape:cx="347.80847"
+     inkscape:cy="201.82464"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
      inkscape:window-x="-8"
@@ -1844,7 +1844,7 @@
            id="tspan42965"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:center;text-anchor:middle;fill:#000080;stroke-width:0.75"
            x="861.03601"
-           y="48.605122">Fn Lock</tspan></text>
+           y="48.605122">FnLock</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -2262,13 +2262,13 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
        x="67.009727"
-       y="90.939766"
+       y="109.90142"
        id="text43131"><tspan
          sodipodi:role="line"
          id="tspan43129"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
          x="67.009727"
-         y="90.939766">§</tspan></text>
+         y="109.90142">§</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -2383,54 +2383,50 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
          x="115.86082"
          y="111.56342">\</tspan></text>
-    <g
-       id="g43195"
-       transform="translate(-85.312889,-53.702477)">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="231.31374"
-         y="144.64224"
-         id="text43181"><tspan
-           sodipodi:role="line"
-           id="tspan43179"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-           x="231.31374"
-           y="144.64224">0</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="253.63228"
-         y="144.64224"
-         id="text43185"><tspan
-           sodipodi:role="line"
-           id="tspan43183"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
-           x="253.63228"
-           y="144.64224">◌̥</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="231.31374"
-         y="165.2659"
-         id="text43189"><tspan
-           sodipodi:role="line"
-           id="tspan43187"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-           x="231.31374"
-           y="165.2659">(</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="253.63228"
-         y="165.2659"
-         id="text43193"><tspan
-           sodipodi:role="line"
-           id="tspan43191"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
-           x="253.63228"
-           y="165.2659">◌̊</tspan></text>
-    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="146.00085"
+       y="90.939766"
+       id="text43181"><tspan
+         sodipodi:role="line"
+         id="tspan43179"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="146.00085"
+         y="90.939766">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="168.3194"
+       y="90.939766"
+       id="text43185"><tspan
+         sodipodi:role="line"
+         id="tspan43183"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="168.3194"
+         y="90.939766">◌̥</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="146.00085"
+       y="111.56342"
+       id="text43189"><tspan
+         sodipodi:role="line"
+         id="tspan43187"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="146.00085"
+         y="111.56342">(</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="168.3194"
+       y="111.56342"
+       id="text43193"><tspan
+         sodipodi:role="line"
+         id="tspan43191"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="168.3194"
+         y="111.56342">◌̊</tspan></text>
     <g
        id="g43213"
        transform="translate(-32.854318,-53.702477)">
@@ -2543,54 +2539,50 @@
            x="776.30542"
            y="111.56342">Backspace</tspan></text>
     </g>
-    <g
-       id="g43299"
-       transform="translate(87.140276,102.87921)">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="231.31374"
-         y="144.64224"
-         id="text43285"><tspan
-           sodipodi:role="line"
-           id="tspan43283"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-           x="231.31374"
-           y="144.64224">;</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="253.63228"
-         y="144.64224"
-         id="text43289"><tspan
-           sodipodi:role="line"
-           id="tspan43287"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
-           x="253.63228"
-           y="144.64224">◌̓</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="231.31374"
-         y="165.2659"
-         id="text43293"><tspan
-           sodipodi:role="line"
-           id="tspan43291"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-           x="231.31374"
-           y="165.2659">,</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="253.63228"
-         y="165.2659"
-         id="text43297"><tspan
-           sodipodi:role="line"
-           id="tspan43295"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
-           x="253.63228"
-           y="165.2659">◌̦</tspan></text>
-    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="318.45401"
+       y="247.52145"
+       id="text43285"><tspan
+         sodipodi:role="line"
+         id="tspan43283"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="318.45401"
+         y="247.52145">;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="340.77255"
+       y="247.52145"
+       id="text43289"><tspan
+         sodipodi:role="line"
+         id="tspan43287"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="340.77255"
+         y="247.52145">◌̓</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="318.45401"
+       y="268.14511"
+       id="text43293"><tspan
+         sodipodi:role="line"
+         id="tspan43291"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="318.45401"
+         y="268.14511">,</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="340.77255"
+       y="267.84598"
+       id="text43297"><tspan
+         sodipodi:role="line"
+         id="tspan43295"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="340.77255"
+         y="267.84598">◌̦</tspan></text>
     <g
        id="g43317"
        transform="translate(139.61601,102.87921)">
@@ -3022,54 +3014,50 @@
            x="253.63228"
            y="165.2659" /></text>
     </g>
-    <g
-       id="g43483"
-       transform="translate(34.664537,102.87921)">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="231.31374"
-         y="144.64224"
-         id="text43469"><tspan
-           sodipodi:role="line"
-           id="tspan43467"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-           x="231.31374"
-           y="144.64224">L</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="253.63228"
-         y="144.64224"
-         id="text43473"><tspan
-           sodipodi:role="line"
-           id="tspan43471"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
-           x="253.63228"
-           y="144.64224">◌̉</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="231.31374"
-         y="165.2659"
-         id="text43477"><tspan
-           sodipodi:role="line"
-           id="tspan43475"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-           x="231.31374"
-           y="165.2659">l</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="253.63228"
-         y="165.2659"
-         id="text43481"><tspan
-           sodipodi:role="line"
-           id="tspan43479"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
-           x="253.63228"
-           y="165.2659">◌̧</tspan></text>
-    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="265.97827"
+       y="247.52145"
+       id="text43469"><tspan
+         sodipodi:role="line"
+         id="tspan43467"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="265.97827"
+         y="247.52145">L</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="288.29681"
+       y="247.52145"
+       id="text43473"><tspan
+         sodipodi:role="line"
+         id="tspan43471"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="288.29681"
+         y="247.52145">◌̉</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="265.97827"
+       y="268.14511"
+       id="text43477"><tspan
+         sodipodi:role="line"
+         id="tspan43475"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="265.97827"
+         y="268.14511">l</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="288.29681"
+       y="267.84598"
+       id="text43481"><tspan
+         sodipodi:role="line"
+         id="tspan43479"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="288.29681"
+         y="267.84598">◌̧</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -3812,102 +3800,94 @@
            x="253.63228"
            y="165.2659">◌̯</tspan></text>
     </g>
-    <g
-       id="g43885"
-       transform="translate(150.45517,-1.5085805)">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="231.31374"
-         y="144.64224"
-         id="text43871"><tspan
-           sodipodi:role="line"
-           id="tspan43869"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-           x="231.31374"
-           y="144.64224">¯</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="253.63228"
-         y="144.64224"
-         id="text43875"><tspan
-           sodipodi:role="line"
-           id="tspan43873"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
-           x="253.63228"
-           y="144.64224">◌̄</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="231.31374"
-         y="165.2659"
-         id="text43879"><tspan
-           sodipodi:role="line"
-           id="tspan43877"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-           x="231.31374"
-           y="165.2659">_</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="253.63228"
-         y="165.2659"
-         id="text43883"><tspan
-           sodipodi:role="line"
-           id="tspan43881"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
-           x="253.63228"
-           y="165.2659">◌̱</tspan></text>
-    </g>
-    <g
-       id="g43903"
-       transform="translate(202.92762,-1.5085805)">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="231.31374"
-         y="144.64224"
-         id="text43889"><tspan
-           sodipodi:role="line"
-           id="tspan43887"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-           x="231.31374"
-           y="144.64224">M</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="253.63228"
-         y="144.64224"
-         id="text43893"><tspan
-           sodipodi:role="line"
-           id="tspan43891"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-           x="253.63228"
-           y="144.64224" /></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="231.31374"
-         y="165.2659"
-         id="text43897"><tspan
-           sodipodi:role="line"
-           id="tspan43895"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-           x="231.31374"
-           y="165.2659">m</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="253.63228"
-         y="165.2659"
-         id="text43901"><tspan
-           sodipodi:role="line"
-           id="tspan43899"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
-           x="253.63228"
-           y="165.2659">◌̩</tspan></text>
-    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="381.76892"
+       y="143.13367"
+       id="text43871"><tspan
+         sodipodi:role="line"
+         id="tspan43869"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="381.76892"
+         y="143.13367">¯</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="404.08746"
+       y="143.13367"
+       id="text43875"><tspan
+         sodipodi:role="line"
+         id="tspan43873"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="404.08746"
+         y="143.13367">◌̄</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="381.76892"
+       y="163.75732"
+       id="text43879"><tspan
+         sodipodi:role="line"
+         id="tspan43877"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="381.76892"
+         y="163.75732">_</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="404.08746"
+       y="163.75732"
+       id="text43883"><tspan
+         sodipodi:role="line"
+         id="tspan43881"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="404.08746"
+         y="163.75732">◌̱</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="434.24136"
+       y="143.13367"
+       id="text43889"><tspan
+         sodipodi:role="line"
+         id="tspan43887"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="434.24136"
+         y="143.13367">M</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="456.55991"
+       y="143.13367"
+       id="text43893"><tspan
+         sodipodi:role="line"
+         id="tspan43891"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="456.55991"
+         y="143.13367" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="434.24136"
+       y="163.75732"
+       id="text43897"><tspan
+         sodipodi:role="line"
+         id="tspan43895"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="434.24136"
+         y="163.75732">m</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="419.20392"
+       y="215.92111"
+       id="text43901"><tspan
+         sodipodi:role="line"
+         id="tspan43899"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="419.20392"
+         y="215.92111">◌̩</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -4032,14 +4012,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-       x="613.22937"
-       y="163.75732"
+       x="612.33191"
+       y="163.45818"
        id="text43957"><tspan
          sodipodi:role="line"
          id="tspan43955"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
-         x="613.22937"
-         y="163.75732">◌̸</tspan></text>
+         x="612.33191"
+         y="163.45818">◌̸</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -4129,199 +4109,192 @@
          x="706.59747"
          y="163.75732">◌̃</tspan></text>
     <g
-       id="g44071">
-      <g
-         id="g44015"
-         transform="translate(-111.90706,-1.5085805)">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       id="g44015"
+       transform="translate(-111.90706,-1.5085805)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="231.31374"
+         y="144.64224"
+         id="text44001"><tspan
+           sodipodi:role="line"
+           id="tspan43999"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
            x="231.31374"
-           y="144.64224"
-           id="text44001"><tspan
-             sodipodi:role="line"
-             id="tspan43999"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="231.31374"
-             y="144.64224">|</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+           y="144.64224">|</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="253.63228"
+         y="144.64224"
+         id="text44005"><tspan
+           sodipodi:role="line"
+           id="tspan44003"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
            x="253.63228"
-           y="144.64224"
-           id="text44005"><tspan
-             sodipodi:role="line"
-             id="tspan44003"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="253.63228"
-             y="144.64224">∨</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+           y="144.64224">∨</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="231.31374"
+         y="165.2659"
+         id="text44009"><tspan
+           sodipodi:role="line"
+           id="tspan44007"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
            x="231.31374"
-           y="165.2659"
-           id="text44009"><tspan
-             sodipodi:role="line"
-             id="tspan44007"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="231.31374"
-             y="165.2659">&amp;</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+           y="165.2659">&amp;</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="253.63228"
+         y="165.2659"
+         id="text44013"><tspan
+           sodipodi:role="line"
+           id="tspan44011"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
            x="253.63228"
-           y="165.2659"
-           id="text44013"><tspan
-             sodipodi:role="line"
-             id="tspan44011"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="253.63228"
-             y="165.2659">∧</tspan></text>
-      </g>
-      <g
-         id="g44033"
-         transform="translate(-59.434613,-1.5085805)">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+           y="165.2659">∧</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="171.87912"
+       y="143.13367"
+       id="text44019"><tspan
+         sodipodi:role="line"
+         id="tspan44017"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="171.87912"
+         y="143.13367">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="194.19766"
+       y="143.13367"
+       id="text44023"><tspan
+         sodipodi:role="line"
+         id="tspan44021"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="194.19766"
+         y="143.13367">◌̌</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="171.87912"
+       y="163.75732"
+       id="text44027"><tspan
+         sodipodi:role="line"
+         id="tspan44025"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="171.87912"
+         y="163.75732">a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="194.19766"
+       y="163.75732"
+       id="text44031"><tspan
+         sodipodi:role="line"
+         id="tspan44029"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="194.19766"
+         y="163.75732">◌̂</tspan></text>
+    <g
+       id="g44051"
+       transform="translate(-6.9621667,-1.5085805)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="231.31374"
+         y="144.64224"
+         id="text44037"><tspan
+           sodipodi:role="line"
+           id="tspan44035"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
            x="231.31374"
-           y="144.64224"
-           id="text44019"><tspan
-             sodipodi:role="line"
-             id="tspan44017"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="231.31374"
-             y="144.64224">A</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+           y="144.64224">D</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="253.63228"
+         y="144.64224"
+         id="text44041"><tspan
+           sodipodi:role="line"
+           id="tspan44039"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
            x="253.63228"
-           y="144.64224"
-           id="text44023"><tspan
-             sodipodi:role="line"
-             id="tspan44021"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
-             x="253.63228"
-             y="144.64224">◌̌</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+           y="144.64224">◌̬</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="231.31374"
+         y="165.2659"
+         id="text44045"><tspan
+           sodipodi:role="line"
+           id="tspan44043"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
            x="231.31374"
-           y="165.2659"
-           id="text44027"><tspan
-             sodipodi:role="line"
-             id="tspan44025"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="231.31374"
-             y="165.2659">a</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+           y="165.2659">d</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="253.63228"
+         y="165.2659"
+         id="text44049"><tspan
+           sodipodi:role="line"
+           id="tspan44047"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
            x="253.63228"
-           y="165.2659"
-           id="text44031"><tspan
-             sodipodi:role="line"
-             id="tspan44029"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
-             x="253.63228"
-             y="165.2659">◌̂</tspan></text>
-      </g>
-      <g
-         id="g44051"
-         transform="translate(-6.9621667,-1.5085805)">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+           y="165.2659">◌̭</tspan></text>
+    </g>
+    <g
+       id="g44069"
+       transform="translate(45.51028,-1.5085805)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="231.31374"
+         y="144.64224"
+         id="text44055"><tspan
+           sodipodi:role="line"
+           id="tspan44053"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
            x="231.31374"
-           y="144.64224"
-           id="text44037"><tspan
-             sodipodi:role="line"
-             id="tspan44035"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="231.31374"
-             y="144.64224">D</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+           y="144.64224">G</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="253.63228"
+         y="144.64224"
+         id="text44059"><tspan
+           sodipodi:role="line"
+           id="tspan44057"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
            x="253.63228"
-           y="144.64224"
-           id="text44041"><tspan
-             sodipodi:role="line"
-             id="tspan44039"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
-             x="253.63228"
-             y="144.64224">◌̬</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+           y="144.64224">◌̆</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="231.31374"
+         y="165.2659"
+         id="text44063"><tspan
+           sodipodi:role="line"
+           id="tspan44061"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
            x="231.31374"
-           y="165.2659"
-           id="text44045"><tspan
-             sodipodi:role="line"
-             id="tspan44043"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="231.31374"
-             y="165.2659">d</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+           y="165.2659">g</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="253.63228"
+         y="165.2659"
+         id="text44067"><tspan
+           sodipodi:role="line"
+           id="tspan44065"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
            x="253.63228"
-           y="165.2659"
-           id="text44049"><tspan
-             sodipodi:role="line"
-             id="tspan44047"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
-             x="253.63228"
-             y="165.2659">◌̭</tspan></text>
-      </g>
-      <g
-         id="g44069"
-         transform="translate(45.51028,-1.5085805)">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-           x="231.31374"
-           y="144.64224"
-           id="text44055"><tspan
-             sodipodi:role="line"
-             id="tspan44053"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="231.31374"
-             y="144.64224">G</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-           x="253.63228"
-           y="144.64224"
-           id="text44059"><tspan
-             sodipodi:role="line"
-             id="tspan44057"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
-             x="253.63228"
-             y="144.64224">◌̆</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-           x="231.31374"
-           y="165.2659"
-           id="text44063"><tspan
-             sodipodi:role="line"
-             id="tspan44061"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="231.31374"
-             y="165.2659">g</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-           x="253.63228"
-           y="165.2659"
-           id="text44067"><tspan
-             sodipodi:role="line"
-             id="tspan44065"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
-             x="253.63228"
-             y="165.2659">◌̑</tspan></text>
-      </g>
+           y="165.2659">◌̑</tspan></text>
     </g>
     <text
        xml:space="preserve"
@@ -5031,7 +5004,7 @@
        style="fill:#000080">
       <path
          style="fill:#000080;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         d="m 936.26951,100.01598 h 1.14453 c 0.44532,0 0.66797,-0.218754 0.66797,-0.656254 v -0.75781 c 0,-0.44532 -0.22265,-0.66797 -0.66797,-0.66797 h -1.14453 c -0.0625,0 -0.0976,0.0312 -0.0976,0.0937 v 1.89843 c 0,0.0586 0.0351,0.0898 0.0976,0.0898 m -0.25,2.9414 h -0.5664 c -0.10157,0 -0.15235,-0.0508 -0.15235,-0.15234 v -5.480534 c 0,-0.10156 0.0508,-0.15234 0.15235,-0.15234 h 2.10547 c 0.4375,0 0.78125,0.12109 1.03125,0.37109 0.24609,0.25 0.37109,0.59375 0.37109,1.03125 v 0.75781 c 0,0.687564 -0.28516,1.125064 -0.85156,1.304754 v 0.0352 l 0.99609,2.10547 c 0.0664,0.12109 0.0273,0.17968 -0.11719,0.17968 h -0.55859 c -0.14063,0 -0.23438,-0.0508 -0.27734,-0.15234 l -0.96485,-2.07031 h -0.90625 c -0.0703,0 -0.10937,0.0312 -0.10937,0.0898 v 1.98047 c 0,0.10156 -0.0508,0.15234 -0.15235,0.15234"
+         d="m 936.26951,100.01598 h 1.14453 c 0.44532,0 0.66797,-0.218754 0.66797,-0.656254 v -0.75781 c 0,-0.44532 -0.22265,-0.66797 -0.66797,-0.66797 h -1.14453 c -0.0625,0 -0.0976,0.0312 -0.0976,0.0937 v 1.89843 c 0,0.0586 0.0351,0.0898 0.0976,0.0898 m -0.25,2.9414 h -0.5664 c -0.10157,0 -0.15235,-0.0508 -0.15235,-0.15234 v -5.480542 c 0,-0.10156 0.0508,-0.15234 0.15235,-0.15234 h 2.10547 c 0.4375,0 0.78125,0.12109 1.03125,0.37109 0.24609,0.25 0.37109,0.59375 0.37109,1.03125 v 0.75781 c 0,0.687572 -0.28516,1.125072 -0.85156,1.304762 v 0.0352 l 0.99609,2.10547 c 0.0664,0.12109 0.0273,0.17968 -0.11719,0.17968 h -0.55859 c -0.14063,0 -0.23438,-0.0508 -0.27734,-0.15234 l -0.96485,-2.07031 h -0.90625 c -0.0703,0 -0.10937,0.0312 -0.10937,0.0898 v 1.98047 c 0,0.10156 -0.0508,0.15234 -0.15235,0.15234"
          id="path514-8" />
       <path
          style="fill:#000080;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5140,7 +5113,7 @@
          y="-323.52203"
          style="stroke-width:0.75" />
       <polygon
-         points="218.228,366.099 218.228,422.957 300.522,422.957 300.522,366.099 512,366.099 512,294.957 0,294.957 0,366.099 "
+         points="300.522,422.957 300.522,366.099 512,366.099 512,294.957 0,294.957 0,366.099 218.228,366.099 218.228,422.957 "
          id="polygon160910"
          transform="matrix(0.75,0,0,0.75,269.29417,-323.52203)" />
       <rect
@@ -5233,6 +5206,204 @@
        d="m 876.63948,236.48145 3.4425,3.435 3.4425,-3.435 1.0575,1.0575 -4.5,4.5 -4.5,-4.5 z"
        id="path161190"
        style="display:inline;fill:#000080;stroke-width:0.75" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="214.98636"
+       y="93.632088"
+       id="text2224"><tspan
+         sodipodi:role="line"
+         id="tspan2222"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="214.98636"
+         y="93.632088">◌͝◌</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="214.98636"
+       y="114.25574"
+       id="text2228"><tspan
+         sodipodi:role="line"
+         id="tspan2226"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="214.98636"
+         y="114.25574">◌͡◌</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="378.02158"
+       y="111.56342"
+       id="text2334"><tspan
+         sodipodi:role="line"
+         id="tspan2332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="378.02158"
+         y="111.56342">◌͗</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="612.33191"
+       y="142.83452"
+       id="text2338"><tspan
+         sodipodi:role="line"
+         id="tspan2336"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="612.33191"
+         y="142.83452">◌̷</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="554.89563"
+       y="146.72343"
+       id="text2342"><tspan
+         sodipodi:role="line"
+         id="tspan2340"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="554.89563"
+         y="146.72343">◌͠◌</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="450.75443"
+       y="144.33026"
+       id="text2354"><tspan
+         sodipodi:role="line"
+         id="tspan2352"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="450.75443"
+         y="144.33026">◌͞◌</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="455.24161"
+       y="163.75732"
+       id="text2358"><tspan
+         sodipodi:role="line"
+         id="tspan2356"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="455.24161"
+         y="163.75732">◌ː</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="261.80493"
+       y="195.18527"
+       id="text2410"><tspan
+         sodipodi:role="line"
+         id="tspan2408"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="261.80493"
+         y="195.18527">◌̒</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="261.80493"
+       y="216.10808"
+       id="text2414"><tspan
+         sodipodi:role="line"
+         id="tspan2412"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="261.80493"
+         y="216.10808">◌̔</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="201.97549"
+       y="196.08272"
+       id="text2418"><tspan
+         sodipodi:role="line"
+         id="tspan2416"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="201.97549"
+         y="196.08272">◌᷍◌</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="366.8056"
+       y="195.18527"
+       id="text2422"><tspan
+         sodipodi:role="line"
+         id="tspan2420"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="366.8056"
+         y="195.18527">◌̔</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="366.8056"
+       y="216.10808"
+       id="text2426"><tspan
+         sodipodi:role="line"
+         id="tspan2424"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="366.8056"
+         y="216.10808">◌̒</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="412.62268"
+       y="195.27995"
+       id="text2430"><tspan
+         sodipodi:role="line"
+         id="tspan2428"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="412.62268"
+         y="195.27995">◌⃓</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="627.4729"
+       y="195.32756"
+       id="text2434"><tspan
+         sodipodi:role="line"
+         id="tspan2432"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="627.4729"
+         y="195.32756">◌҃</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="655.59271"
+       y="267.42206"
+       id="text2438"><tspan
+         sodipodi:role="line"
+         id="tspan2436"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="655.59271"
+         y="267.42206">◌ͅ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="235.04861"
+       y="247.52145"
+       id="text2450"><tspan
+         sodipodi:role="line"
+         id="tspan2448"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="235.04861"
+         y="247.52145">◌̢</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="235.04861"
+       y="267.84598"
+       id="text2454"><tspan
+         sodipodi:role="line"
+         id="tspan2452"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="235.04861"
+         y="267.84598">◌̡</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="461.0845"
+       y="217.41685"
+       id="text4436"><tspan
+         sodipodi:role="line"
+         id="tspan4434"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
+         x="461.0845"
+         y="217.41685">◌·◌</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"

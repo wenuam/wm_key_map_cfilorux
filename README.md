@@ -2,9 +2,11 @@
 
 Culturally neutral alphabetical keyboard layout.
 
-Version 1 (231210) :
+Version 2 (231212) :
 
 [![Cfilorux keyboard layout image](./img/wm_key_layout_cfilorux.png "Cfilorux keyboard layout")](http://www.keyboard-layout-editor.com/#/gists/957010bea346a628fdf7c3832358589b)
+
+Version 1 (231210) : 6611d0e
 
 ## Goals
 

@@ -5,7 +5,7 @@
    viewBox="0 0 1048.81 396.784"
    version="1.1"
    id="svg843"
-   sodipodi:docname="TUXEDO Sirius 16 - Gen1 - WM ISO.svg"
+   sodipodi:docname="TUXEDO Sirius 16 - Gen1 - WM ISO_template.svg"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,8 +25,8 @@
      inkscape:document-units="pt"
      showgrid="false"
      inkscape:zoom="2.507127"
-     inkscape:cx="347.80847"
-     inkscape:cy="201.82464"
+     inkscape:cx="663.7079"
+     inkscape:cy="231.73936"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
      inkscape:window-x="-8"
@@ -2723,152 +2723,145 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
          x="498.19977"
          y="268.14511">¤</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="528.30371"
+       y="247.52145"
+       id="text43359"><tspan
+         sodipodi:role="line"
+         id="tspan43357"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="528.30371"
+         y="247.52145">R</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:25.7475px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.20691"
+       x="547.2157"
+       y="254.3642"
+       id="text43363"><tspan
+         sodipodi:role="line"
+         id="tspan43361"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.7475px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:1.20691"
+         x="547.2157"
+         y="254.3642">®</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="528.30371"
+       y="268.14511"
+       id="text43367"><tspan
+         sodipodi:role="line"
+         id="tspan43365"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="528.30371"
+         y="268.14511">r</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="550.62225"
+       y="268.14511"
+       id="text43371"><tspan
+         sodipodi:role="line"
+         id="tspan43369"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="550.62225"
+         y="268.14511">₹</tspan></text>
     <g
-       id="g43411">
-      <g
-         id="g43373"
-         transform="translate(296.98999,102.87921)">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       id="g43391"
+       transform="translate(349.45361,102.87921)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="231.31374"
+         y="144.64224"
+         id="text43377"><tspan
+           sodipodi:role="line"
+           id="tspan43375"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
            x="231.31374"
-           y="144.64224"
-           id="text43359"><tspan
-             sodipodi:role="line"
-             id="tspan43357"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="231.31374"
-             y="144.64224">R</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+           y="144.64224">U</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="253.63228"
+         y="144.64224"
+         id="text43381"><tspan
+           sodipodi:role="line"
+           id="tspan43379"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
            x="253.63228"
-           y="144.64224"
-           id="text43363"><tspan
-             sodipodi:role="line"
-             id="tspan43361"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="253.63228"
-             y="144.64224">®</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+           y="144.64224" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="231.31374"
+         y="165.2659"
+         id="text43385"><tspan
+           sodipodi:role="line"
+           id="tspan43383"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
            x="231.31374"
-           y="165.2659"
-           id="text43367"><tspan
-             sodipodi:role="line"
-             id="tspan43365"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="231.31374"
-             y="165.2659">r</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+           y="165.2659">u</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="253.63228"
+         y="165.2659"
+         id="text43389"><tspan
+           sodipodi:role="line"
+           id="tspan43387"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
            x="253.63228"
-           y="165.2659"
-           id="text43371"><tspan
-             sodipodi:role="line"
-             id="tspan43369"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="253.63228"
-             y="165.2659">₹</tspan></text>
-      </g>
-      <g
-         id="g43391"
-         transform="translate(349.45361,102.87921)">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+           y="165.2659">µ</tspan></text>
+    </g>
+    <g
+       id="g43409"
+       transform="translate(401.99471,102.87921)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="231.31374"
+         y="144.64224"
+         id="text43395"><tspan
+           sodipodi:role="line"
+           id="tspan43393"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
            x="231.31374"
-           y="144.64224"
-           id="text43377"><tspan
-             sodipodi:role="line"
-             id="tspan43375"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="231.31374"
-             y="144.64224">U</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+           y="144.64224">X</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="253.63228"
+         y="144.64224"
+         id="text43399"><tspan
+           sodipodi:role="line"
+           id="tspan43397"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
            x="253.63228"
-           y="144.64224"
-           id="text43381"><tspan
-             sodipodi:role="line"
-             id="tspan43379"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="253.63228"
-             y="144.64224" /></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+           y="144.64224" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="231.31374"
+         y="165.2659"
+         id="text43403"><tspan
+           sodipodi:role="line"
+           id="tspan43401"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
            x="231.31374"
-           y="165.2659"
-           id="text43385"><tspan
-             sodipodi:role="line"
-             id="tspan43383"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="231.31374"
-             y="165.2659">u</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+           y="165.2659">x</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         x="253.63228"
+         y="165.2659"
+         id="text43407"><tspan
+           sodipodi:role="line"
+           id="tspan43405"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
            x="253.63228"
-           y="165.2659"
-           id="text43389"><tspan
-             sodipodi:role="line"
-             id="tspan43387"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="253.63228"
-             y="165.2659">µ</tspan></text>
-      </g>
-      <g
-         id="g43409"
-         transform="translate(401.99471,102.87921)">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-           x="231.31374"
-           y="144.64224"
-           id="text43395"><tspan
-             sodipodi:role="line"
-             id="tspan43393"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="231.31374"
-             y="144.64224">X</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-           x="253.63228"
-           y="144.64224"
-           id="text43399"><tspan
-             sodipodi:role="line"
-             id="tspan43397"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="253.63228"
-             y="144.64224" /></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-           x="231.31374"
-           y="165.2659"
-           id="text43403"><tspan
-             sodipodi:role="line"
-             id="tspan43401"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="231.31374"
-             y="165.2659">x</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-           x="253.63228"
-           y="165.2659"
-           id="text43407"><tspan
-             sodipodi:role="line"
-             id="tspan43405"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-             x="253.63228"
-             y="165.2659" /></text>
-      </g>
+           y="165.2659" /></text>
     </g>
     <g
        id="g43429"
@@ -4108,54 +4101,50 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
          x="706.59747"
          y="163.75732">◌̃</tspan></text>
-    <g
-       id="g44015"
-       transform="translate(-111.90706,-1.5085805)">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="231.31374"
-         y="144.64224"
-         id="text44001"><tspan
-           sodipodi:role="line"
-           id="tspan43999"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-           x="231.31374"
-           y="144.64224">|</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="253.63228"
-         y="144.64224"
-         id="text44005"><tspan
-           sodipodi:role="line"
-           id="tspan44003"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-           x="253.63228"
-           y="144.64224">∨</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="231.31374"
-         y="165.2659"
-         id="text44009"><tspan
-           sodipodi:role="line"
-           id="tspan44007"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-           x="231.31374"
-           y="165.2659">&amp;</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-         x="253.63228"
-         y="165.2659"
-         id="text44013"><tspan
-           sodipodi:role="line"
-           id="tspan44011"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
-           x="253.63228"
-           y="165.2659">∧</tspan></text>
-    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="119.40668"
+       y="143.13367"
+       id="text44001"><tspan
+         sodipodi:role="line"
+         id="tspan43999"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="119.40668"
+         y="143.13367">|</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="141.72522"
+       y="143.13367"
+       id="text44005"><tspan
+         sodipodi:role="line"
+         id="tspan44003"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="141.72522"
+         y="143.13367">∨</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="119.40668"
+       y="163.75732"
+       id="text44009"><tspan
+         sodipodi:role="line"
+         id="tspan44007"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="119.40668"
+         y="163.75732">&amp;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="141.72522"
+       y="163.75732"
+       id="text44013"><tspan
+         sodipodi:role="line"
+         id="tspan44011"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#000080;stroke-width:0.75"
+         x="141.72522"
+         y="163.75732">∧</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -5404,6 +5393,54 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000080;stroke-width:0.75"
          x="461.0845"
          y="217.41685">◌·◌</tspan></text>
+    <path
+       style="fill:#000080;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 125.51707,47.550801 c 0,-0.78125 -0.63672,-1.41406 -1.41797,-1.41406 -0.78515,0 -1.41796,0.63281 -1.41796,1.41406 0,0.78516 0.63281,1.41797 1.41796,1.41797 0.78125,0 1.41797,-0.63281 1.41797,-1.41797"
+       id="path4111" />
+    <path
+       style="fill:#000080;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 266.4154,47.550801 c 0,-0.78125 -0.63672,-1.41406 -1.41797,-1.41406 -0.78515,0 -1.41796,0.63281 -1.41796,1.41406 0,0.78516 0.63281,1.41797 1.41796,1.41797 0.78125,0 1.41797,-0.63281 1.41797,-1.41797"
+       id="path4113" />
+    <g
+       id="g5-69"
+       transform="matrix(3.208684,0,0,-3.208684,-1351.8711,1079.0165)"
+       style="display:inline;fill:#000080">
+      <path
+         inkscape:connector-curvature="0"
+         id="path11950"
+         style="display:inline;fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.999998"
+         d="m 451.42196,286.75431 -2.121,-1.237 c -0.056,-0.033 -0.126,0.007 -0.126,0.072 v 2.438 c 0,0.064 0.069,0.105 0.125,0.073 l 2.121,-1.20101 c 0.056,-0.032 0.057,-0.11299 7.5e-4,-0.145" />
+      <path
+         d="m 452.53906,288.29041 h -0.573 v -3.046 h 0.573 z"
+         style="display:inline;fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.999998"
+         id="path11952"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g5-0"
+       transform="matrix(3.208684,0,0,-3.208684,-1325.3978,1042.0553)"
+       style="display:inline;fill:#000080">
+      <path
+         inkscape:connector-curvature="0"
+         id="path11944"
+         style="display:inline;fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.999998"
+         d="m 442.04255,281.64871 2.121,1.201 c 0.056,0.032 0.125,-0.009 0.125,-0.073 v -2.438 c 0,-0.065 -0.07,-0.105 -0.125,-0.072 l -2.122,1.23701 c -0.056,0.033 -0.055,0.11299 7.5e-4,0.14499" />
+      <path
+         d="m 440.92495,279.99441 h 0.573 v 3.046 h -0.573 z"
+         style="display:inline;fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.999998"
+         id="path11946"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g6"
+       transform="matrix(3.208684,0,0,-3.208684,-1387.2697,1203.9587)"
+       style="display:inline;fill:#000080">
+      <path
+         d="m 455.47296,282.24441 h 0.573 v 3.046 h -0.573 z m -1.108,0 h 0.573 v 3.046 h -0.573 z m -0.693,1.509 -2.122,-1.237 c -0.055,-0.033 -0.125,0.008 -0.125,0.072 v 2.43901 c 0,0.064 0.069,0.10399 0.124,0.072 l 2.122,-1.20101 c 0.056,-0.031 0.056,-0.112 7.5e-4,-0.145"
+         style="display:inline;fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.999998"
+         id="path11940"
+         inkscape:connector-curvature="0" />
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"

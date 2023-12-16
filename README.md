@@ -146,6 +146,10 @@ Here are the previous attempts that led to this version :
 * http://www.keyboard-layout-editor.com/#/gists/c2ca5f0f7dc0f5527d60b11fadf26018
 * http://www.keyboard-layout-editor.com/#/gists/8ff177453d8869cd82990cd966ee7c62
 
+First public mention :
+
+* https://deskthority.net/viewtopic.php?t=17889
+
 ## Troubleshot
 
 In case something might break :

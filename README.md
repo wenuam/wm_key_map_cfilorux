@@ -47,6 +47,8 @@ Even [Bépo] and [Dvorak] have various versions.
 [A4Tech]: https://www.a4tech.com/
 [Natural_A]: https://www.a4tech.com/search.aspx?key=natural_a
 
+Someone also had the same idea : https://github.com/diyism/MyBoard
+
 * For the various accents, most of the diacritics and dead-keys are used to insert them. It may require a bit of "finger gymnastic" but I expect auto-correction software to alleviate this issue.
 
 These diacritics are generally located near keys having the same "shape" to ease locating them.
@@ -59,29 +61,34 @@ Numbers are generally available on the numeric pad, hence the top row favour spe
 
 Some useful links :
 
-Unicode
+### Unicode
 
 * https://www.compart.com/en/unicode/ / https://www.compart.com/en/unicode/block/U+0300
 * https://symbl.cc/en/unicode/ / https://symbl.cc/en/unicode/table/#combining-diacritical-marks
 
-Diacritics
+### Diacritics
 
 * https://en.citizendium.org/wiki/Diacritic
 * https://en.wikipedia.org/wiki/Diacritic
 * https://fr.wikipedia.org/wiki/Diacritiques_de_l%27alphabet_latin
 * https://bepo.fr/wiki/Touches_mortes
+* https://kbdlayout.info/features/deadkeys
+<br>
 
-Special symbols
+* https://microsoft.public.win32.programmer.international.narkive.com/1dA5t1Cc/how-to-combine-dead-keys
+* http://archives.miloush.net/michkap/archive/2011/04/16/10154700.html
+
+### Special symbols
 
 * https://mycodetips.com/tipstricks/special-characters-and-symbols-in-programming-languages-3624.html
 * https://stackoverflow.com/questions/3421532/frequency-of-symbols-in-programming-languages
 * http://www.knosof.co.uk/cbook/
 
-Language codes
+### Language codes
 
 * https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 
-Making your own layout
+### Making your own layout
 
 * https://support.wasdkeyboards.com/hc/en-us/articles/115009403848-Intro-to-Custom-Layouts
 * https://www.tuxedocomputers.com/en/Infos/Help-Support/Frequently-asked-questions/Keyboards-Layouts_1.tuxedo
@@ -90,11 +97,52 @@ Making your own layout
 
 ## Mapping
 
+The keyboard mapping is the assignation of letters to certains keys. It could be done in several ways :
+
+1- In the keyboard firmware (they are sending standardized scan codes, extended codes for media keys)
+2- In the keyboard key mapper (if they can host such a mapping reconfiguration)
+3- Low-level key input remapping on the computer side, before the Operating System gets it
+4- Language selection at the Operating System level (ie. [Windows] key + [Space] bar)
+
+Depending on the case, it requires the keyboard mapping configuration files in the right format.
+
 Keyboard mapping utilities depends on the operating system in use :
 
-* Windows : [Microsoft Keyboard Layout Creator] / https://msklc-guide.github.io/
+### Cross
+
+* https://keyman.com/ (by SIL, free and open source)
+* https://github.com/kmonad/kmonad
+* https://github.com/thantthet/keymagic / https://github.com/minnkyaw/keymagic
+
+### Linux
+
+For Linux it is quite complex, several tools with different syntax :
+
+* https://github.com/rvaiya/keyd
+* https://github.com/samvel1024/kbct
+<br>
+
+* https://wiki.archlinux.org/title/X_keyboard_extension
+* https://help.ubuntu.com/community/Custom%20keyboard%20layout%20definitions
+* https://medium.com/@damko/a-simple-humble-but-comprehensive-guide-to-xkb-for-linux-6f1ad5e13450
+* https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/include/uapi/linux/input-event-codes.h
+
+### Windows
+
+* [Microsoft Keyboard Layout Creator] (by Michael Kaplan) / https://msklc-guide.github.io/
 
 [Microsoft Keyboard Layout Creator]: https://www.microsoft.com/en-us/download/details.aspx?id=102134
+<br>
+
+* https://github.com/topics/msklc
+* https://github.com/alexriss/keyboard-layout-converter
+<br>
+
+* https://github.com/cajhin/capsicain
+* https://github.com/oskar-anderson/Multikeys
+* https://github.com/giladreich/QuickCut
+
+### Testing
 
 You can also use tools to test the relevance of a mapping :
 
@@ -113,26 +161,44 @@ The layout is already implemented for different keyboards :
 [Sirius 16 - Gen1]: https://www.tuxedocomputers.com/en/TUXEDO-Sirius-16-Gen1.tuxedo
 [Stellaris 16 - Gen5 - AMD]: https://www.tuxedocomputers.com/en/TUXEDO-Stellaris-16-Gen5-AMD.tuxedo
 
+Max Keyboard layouts (6.5 bottom row for the Corsair K95 keyboard) :
+
+* http://blog.maxkeyboard.com/dwkb/keycap-profile-size-information/
+* http://www.maxkeyboard.com/download.html
+<br>
+
+* https://cherryxtrfy.com/custom-keyboard-builder
+* https://www.wasdkeyboards.com/products/keycaps/keycap-set.html
+* https://www.wasdkeyboards.com/105-key-iso-custom-cherry-mx-keycap-set.html
+* https://www.maxkeyboard.com/iso-layout-custom-backlight-cherry-mx-keycap-set-top-print.html
+* https://www.maxkeyboard.com/black-clear-translucent-18-g-keys-pack-for-corsair-k95-blank-front-top-printed.html
+<br>
+
+* https://geekhack.org/index.php?topic=96010.0
+<br>
+
+* https://lucidar.me/en/keyboards/where-can-we-buy-french-keycaps/
+
 ## Fonts
 
 Some fonts were used to create to keycaps :
 
-Google fonts
+### Google fonts
 
 * https://github.com/google/fonts (Exo 2 by Natanael GAMA)
 * https://github.com/google/material-design-icons / https://fonts.google.com/icons
 * https://github.com/ionic-team/ionicons / https://ionic.io/ionicons
 
-Symbols
+### Symbols
 
 * https://www.tuxedocomputers.com/en/Key-combinations-and-special-keys.tuxedo
 
-Specific fonts
+### Specific fonts
 
 * https://kinsta.com/blog/best-programming-fonts/
 * https://collab.its.virginia.edu/wiki/toolbox/Unicode%20Diacritic%20Fonts.html
 
-Free fonts
+### Free fonts
 
 * https://www.cufonfonts.com/
 * https://www.fontspace.com/
@@ -151,6 +217,15 @@ First public mention :
 * https://deskthority.net/viewtopic.php?t=17889
 
 ## Troubleshot
+
+### Microsoft Keyboard Layout Creator
+
+* https://ilgthegeek.wordpress.com/2010/05/31/editing-windows-custom-keyboard-layouts/
+* https://www.googlecloudcommunity.com/gc/Workspace-Q-A/Insert-Non-breaking-Space/m-p/508394
+* https://archives.miloush.net/michkap/archive/2008/08/15/8869343.html
+* http://archives.miloush.net/michkap/archive/2011/04/16/10154700.html
+
+### Tuxedo
 
 In case something might break :
 

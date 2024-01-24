@@ -130,10 +130,6 @@ For Linux it is quite complex, several tools with different syntax :
 ### Windows
 
 * [Microsoft Keyboard Layout Creator] (by Michael Kaplan) / https://msklc-guide.github.io/
-
-[Microsoft Keyboard Layout Creator]: https://www.microsoft.com/en-us/download/details.aspx?id=102134
-<br>
-
 * https://github.com/topics/msklc
 * https://github.com/alexriss/keyboard-layout-converter
 <br>
@@ -141,6 +137,8 @@ For Linux it is quite complex, several tools with different syntax :
 * https://github.com/cajhin/capsicain
 * https://github.com/oskar-anderson/Multikeys
 * https://github.com/giladreich/QuickCut
+
+[Microsoft Keyboard Layout Creator]: https://www.microsoft.com/en-us/download/details.aspx?id=102134
 
 ### Testing
 

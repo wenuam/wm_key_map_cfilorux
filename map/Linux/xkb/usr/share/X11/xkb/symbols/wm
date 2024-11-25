@@ -1,0 +1,484 @@
+default partial alphanumeric_keys modifier_keys keypad_keys function_keys
+xkb_symbols "basic" {
+
+    name[Group1]="Cfilorux";
+
+// https://www.charvolant.org/doug/xkb/html/node5.html
+// https://docs.rs/xkb/latest/xkb/key/index.html#constants
+// https://www.x.org/releases/X11R7.0/doc/html/XKB-Enhancing4.html
+
+// https://gist.github.com/jatcwang/ae3b7019f219b8cdc6798329108c9aee
+// https://hackage.haskell.org/package/xkbcommon-0.0.3/src/data/keymaps/no-types.xkb
+
+//  include "latin"
+//  include "keypad(oss)"
+//  include "nbsp(level3n)"
+//  include "nbsp(level4n)"
+//  include "eurosign(e)"
+    include "level3(ralt_switch)"   // AltGr key
+
+// | keysym
+// | :keycode
+// │ S A │ S = SHIFT,  A = ALTGR + SHIFT
+// │ s a │ s = NORMAL, a = ALTGR
+
+    // | ESC  │ FK01 │ FK02 │ FK03 │ FK04 │ FK05 │ FK06 │ FK07 │ FK08 │ FK09 │ FK10 │ FK11 │ FK12 │
+    // | :9   | :67  | :68  | :69  | :70  | :71  | :72  | :73  | :74  | :75  | :76  | :95  | :96  |
+
+    //              NORMAL            , SHIFT             , MODE              , MODE + SHIFT      , ALTGR             , ALTGR + SHIFT     ,
+//  key <ESC>   { [ Escape            , Escape            , Escape            , Escape            ] }; //
+//  key <FK01>  { [ F1                , F1                , F1                , F1                ] }; // XF86AudioMute
+//  key <FK02>  { [ F2                , F2                , F2                , F2                ] }; // XF86AudioLowerVolume
+//  key <FK03>  { [ F3                , F3                , F3                , F3                ] }; // XF86AudioRaiseVolume
+//  key <FK04>  { [ F4                , F4                , F4                , F4                ] }; // XF86AudioMicMute
+//  key <FK05>  { [ F5                , F5                , F5                , F5                ] }; // XF86DisplayOff
+//  key <FK06>  { [ F6                , F6                , F6                , F6                ] }; // XF86MonBrightnessDown
+//  key <FK07>  { [ F7                , F7                , F7                , F7                ] }; // XF86MonBrightnessUp
+//  key <FK08>  { [ F8                , F8                , F8                , F8                ] }; // XF86Display
+//  key <FK09>  { [ F9                , F9                , F9                , F9                ] }; // XF86Game
+//  key <FK10>  { [ F10               , F10               , F10               , F10               ] }; // XF86TouchpadToggle
+//  key <FK11>  { [ F11               , F11               , F11               , F11               ] }; // XF86RFKill
+//  key <FK12>  { [ F12               , F12               , F12               , F12               ] }; // XF86Suspend
+
+    // | TLDE │ AE01 │ AE02 │ AE03 │ AE04 │ AE05 │ AE06 │ AE07 │ AE08 │ AE09 │ AE10 │ AE11 │ AE12 │ BKSP |
+    // | :49  | :10  | :11  | :12  | :13  | :14  | :15  | :16  | :17  | :18  | :19  | :20  | :21  | :22  |
+    // | # ¶  │ % ‰  │ 0    │ 1    │ 2    │ 3    │ 4    │ 5    │ 6    │ 7    │ 8    │ 9    │ + ±  │ delete
+    // | @ §  │ / \  │ ( ˚  │ )    │ [    │ ]    │ {    │ }  ̈  │ « ˝  │ »    │ < ˊ  │ > `  │ - –  │ backspace
+
+    //              NORMAL            , SHIFT             , MODE              , MODE + SHIFT      , ALTGR             , ALTGR + SHIFT     ,
+    key <TLDE>  { [ at                , numbersign        , section           , paragraph         ] }; // U+0040 COMMERCIAL AT
+                                                                                                       // U+0023 NUMBER SIGN
+                                                                                                       // U+00A7 SECTION SIGN
+                                                                                                       // U+00B6 PILCROW SIGN
+    key <AE01>  { [ slash             , percent           , backslash         , permille          ] }; // U+002F SOLIDUS
+    //              division                                                                           // U+0025 PERCENT SIGN
+                                                                                                       // U+005C REVERSE SOLIDUS
+                                                                                                       // U+2030 PER MILLE SIGN
+    key <AE02>  { [ parenleft         , 0                 , dead_abovering    , dead_belowring    ] }; // U+002B LEFT PARENTHESIS
+                                                                                                       // U+0030 DIGIT ZERO
+                                                                                                       // U+030A COMBINING RING ABOVE
+                                                                                                       // U+0325 COMBINING RING BELOW
+    key <AE03>  { [ parenright        , 1                 , U0361             , U035D             ] }; // U+0029 RIGHT PARENTHESIS
+                                                                                                       // U+0031 DIGIT ONE
+                                                                                                       // U+0361 COMBINING DOUBLE INVERTED BREVE
+                                                                                                       // U+035D COMBINING DOUBLE BREVE
+    key <AE04>  { [ bracketleft       , 2                 , U032A             , twosuperior       ] }; // U+005B LEFT SQUARE BRACKET
+                                                                                                       // U+0032 DIGIT TWO
+                                                                                                       // U+032A COMBINING BRIDGE BELOW
+                                                                                                       // U+00B2 SUPERSCRIPT TWO
+    key <AE05>  { [ bracketright      , 3                 , U033A             , threesuperior     ] }; // U+005D RIGHT SQUARE BRACKET
+                                                                                                       // U+0033 DIGIT THREE
+                                                                                                       // U+033A COMBINING INVERTED BRIDGE BELOW
+                                                                                                       //   na
+    key <AE06>  { [ braceleft         , 4                 , U0357             , NoSymbol          ] }; // U+007B LEFT CURLY BRACKET
+                                                                                                       // U+0034 DIGIT FOUR
+                                                                                                       // U+0357 COMBINING RIGHT HALF RING ABOVE
+                                                                                                       //   na
+    key <AE07>  { [ braceright        , 5                 , dead_diaeresis    , U0324             ] }; // U+007D RIGHT CURLY BRACKET
+                                                                                                       // U+0035 DIGIT FIVE
+                                                                                                       // U+0308 COMBINING DIAERESIS
+                                                                                                       // U+0324 COMBINING DIAERESIS BELOW
+    key <AE08>  { [ guillemotleft     , 6                 , dead_doubleacute  , NoSymbol          ] }; // U+00AB LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+                                                                                                       // U+0036 DIGIT SIX
+                                                                                                       // U+030B COMBINING DOUBLE ACUTE ACCENT
+                                                                                                       //   na
+    key <AE09>  { [ guillemotright    , 7                 , U030F             , NoSymbol          ] }; // U+00BB RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+                                                                                                       // U+0037 DIGIT SEVEN
+                                                                                                       // U+030F COMBINING DOUBLE GRAVE ACCENT
+                                                                                                       //   na
+    key <AE10>  { [ less              , 8                 , dead_acute        , U0317             ] }; // U+003C LESS-THAN SIGN
+    //              lessthanequal                                                                      // U+0038 DIGIT EIGHT
+                                                                                                       // U+0301 COMBINING ACUTE ACCENT
+                                                                                                       // U+0317 COMBINING ACUTE ACCENT BELOW
+    key <AE11>  { [ greater           , 9                 , dead_grave        , U0316             ] }; // U+003E GREATER-THAN SIGN
+    //              greaterthanequal                                                                   // U+0039 DIGIT NINE
+                                                                                                       // U+0300 COMBINING GRAVE ACCENT
+                                                                                                       // U+0316 COMBINING GRAVE ACCENT BELOW
+    key <AE12>  { [ minus             , plus              , endash            , plusminus         ] }; // U+002D HYPHEN-MINUS, – (tiret demi-cadratin)
+                                                                                                       // U+002B PLUS SIGN
+                                                                                                       // U+2013 EN DASH
+                                                                                                       // U+00B1 PLUS-MINUS SIGN
+//  key <BKSP>  { [ BackSpace         , Delete            ,                   ,                   ] }; //
+                                                                                                       //
+                                                                                                       //
+                                                                                                       //
+
+    // | TAB  │ AD01 │ AD02 │ AD03 │ AD04 │ AD05 │ AD06 │ AD07 │ AD08 │ AD09 │ AD10 │ AD11 │ AD12 │ RTRN |
+    // | :23  | :24  | :25  | :26  | :27  | :28  | :29  | :30  | :31  | :32  | :33  | :34  | :35  | :36  |
+    // |      │ │ ∨  │ A ˇ  │ D    │ G ̆   │ J    │ ¯ ̄   │ M    │ P ℗  │ S    │ V    │ Y    │ `    │      |
+    // | ↹    │ & ∧  │ a ^  │ d    │ g    │ j    │ _    │ m    │ p ₽  │ s $  │ v    │ y    │ ~ ̃   │      |
+
+    //              NORMAL            , SHIFT             , MODE              , MODE + SHIFT      , ALTGR             , ALTGR + SHIFT     ,
+    key <TAB>   { [ Tab               , ISO_Left_Tab      , XF86AudioNext     , XF86AudioPrev     ] }; //
+                                                                                                       //
+                                                                                                       //
+                                                                                                       //
+    key <AD01>  { [ ampersand         , bar               , logicaland        , logicalor         ] }; // U+002D AMPERSAND
+    //                                  brokenbar                                                      // U+007C VERTICAL LINE
+                                                                                                       // U+2227 LOGICAL AND
+                                                                                                       // U+2228 LOGICAL OR
+    key <AD02>  { [ a                 , A                 , dead_circumflex   , dead_caron        ] }; // U+0061 LATIN SMALL LETTER A
+                                                                                                       // U+0041 LATIN CAPITAL LETTER A
+                                                                                                       // U+0302 COMBINING CIRCUMFLEX ACCENT
+                                                                                                       // U+030C COMBINING CARON
+    key <AD03>  { [ d                 , D                 , U032D             , U032C             ] }; // U+0064 LATIN SMALL LETTER D
+                                                                                                       // U+0044 LATIN CAPITAL LETTER D
+                                                                                                       // U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+                                                                                                       // U+032C COMBINING CARON BELOW
+    key <AD04>  { [ g                 , G                 , U0311             , dead_breve        ] }; // ̆U+0067 LATIN SMALL LETTER G
+                                                                                                       // U+0047 LATIN CAPITAL LETTER G
+                                                                                                       // U+0311 COMBINING INVERTED BREVE
+                                                                                                       // U+0306 COMBINING BREVE
+    key <AD05>  { [ j                 , J                 , U032F             , dead_belowbreve   ] }; // U+006A LATIN SMALL LETTER J
+                                                                                                       // U+004A LATIN CAPITAL LETTER J
+                                                                                                       // U+032F COMBINING INVERTED BREVE BELOW
+                                                                                                       // U+032E COMBINING BREVE BELOW
+    key <AD06>  { [ underscore        , macron            , dead_belowmacron  , dead_macron       ] }; // U+005F LOW LINE
+                                                                                                       // U+00AF MACRON
+                                                                                                       // U+0331 COMBINING MACRON BELOW
+                                                                                                       // U+0304 COMBINING MACRON
+    key <AD07>  { [ m                 , M                 , U02D0             , U035E             ] }; // U+006D LATIN SMALL LETTER M
+                                                                                                       // U+004D LATIN CAPITAL LETTER M
+                                                                                                       // U+02D0 MODIFIER LETTER TRIANGULAR COLON
+                                                                                                       // U+035E COMBINING DOUBLE MACRON
+    key <AD08>  { [ p                 , P                 , U20BD             , U2117             ] }; // U+0070 LATIN SMALL LETTER P
+                                                                                                       // U+0050 LATIN CAPITAL LETTER P
+                                                                                                       // U+20BD RUBLE SIGN
+                                                                                                       // U+2117 SOUND RECORDING COPYRIGHT
+    key <AD09>  { [ s                 , S                 , dollar            , U0360             ] }; // U+0073 LATIN SMALL LETTER S
+                                                                                                       // U+0053 LATIN CAPITAL LETTER S
+                                                                                                       // U+0024 DOLLAR SIGN
+                                                                                                       // U+0360 COMBINING DOUBLE TIDLE
+    key <AD10>  { [ v                 , V                 , U0338             , U0337             ] }; // U+0076 LATIN SMALL LETTER V
+                                                                                                       // U+0056 LATIN CAPITAL LETTER V
+                                                                                                       // U+0338 COMBINING LONG SOLIDUS OVERLAY
+                                                                                                       // U+0337 COMBINING SHORT SOLIDUS OVERLAY
+    key <AD11>  { [ y                 , Y                 , U0334             , dead_stroke       ] }; // U+0079 LATIN SMALL LETTER Y
+                                                                                                       // U+0059 LATIN CAPITAL LETTER Y
+                                                                                                       // U+0334 COMBINING TILDE OVERLAY
+                                                                                                       // U+0335 COMBINING SHORT STROKE OVERLAY
+    key <AD12>  { [ asciitilde        , grave             , dead_tilde        , U0330             ] }; // U+007E TILDE
+                                                                                                       // U+0060 GRAVE ACCENT
+                                                                                                       // U+0303 COMBINING TILDE
+                                                                                                       // U+0330 COMBINING TILDE BELOW
+//  key <RTRN>  { [ Return            , Return            ,                   ,                   ] }; //
+                                                                                                       //
+                                                                                                       //
+                                                                                                       //
+
+    // | CAPS │ AC01 │ AC02 │ AC03 │ AC04 │ AC05 │ AC06 │ AC07 │ AC08 │ AC09 │ AC10 │ AC11 │ BKSL │
+    // | :66  | :38  | :39  | :40  | :41  | :42  | :43  | :44  | :45  | :46  | :47  | :48  | :51  |
+    // |      │ B ^  │ E    │ H    │ K ̛  │ ¿    │ ¡    │ N №  │ Q    │ T ™  │ W    │ Z    │ * —  │
+    // |      │ b ฿  │ e €  │ h    │ k ̉   │ ?    │ !    │ n    │ q    │ t    │ w ₩  │ z ₴  │ = ≠  │
+
+    //              NORMAL            , SHIFT             , MODE              , MODE + SHIFT      , ALTGR             , ALTGR + SHIFT     ,
+//  key <CAPS>  { [ Caps_Lock         ,                   ,                   ,                   ] }; //
+    //              Shift_Lock                                                                         //
+                                                                                                       //
+                                                                                                       //
+    key <AC01>  { [ b                 , B                 , U0E3F             , NoSymbol          ] }; // U+0062 LATIN SMALL LETTER B
+                                                                                                       // U+0042 LATIN CAPITAL LETTER B
+                                                                                                       // U+0E3F THAI CURRENCY SYMBOL BATH
+                                                                                                       //   na
+    key <AC02>  { [ e                 , E                 , EuroSign          , U1DCD             ] }; // U+0065 LATIN SMALL LETTER E
+                                                                                                       // U+0045 LATIN CAPITAL LETTER E
+                                                                                                       // U+20AC EURO SIGN
+                                                                                                       // U+1DCD COMBINING DOUBLE CIRCUMFLEX ABOVE
+    key <AC03>  { [ h                 , H                 , U0314             , U0312             ] }; // U+0068 LATIN SMALL LETTER H
+                                                                                                       // U+0048 LATIN CAPITAL LETTER H
+                                                                                                       // U+0314 COMBINING REVERSE COMMA ABOVE
+                                                                                                       // U+0312 COMBINING TURNED COMMA ABOVE (???)
+    key <AC04>  { [ k                 , K                 , dead_ogonek       , dead_horn         ] }; // U+006B LATIN SMALL LETTER K
+                                                                                                       // U+004B LATIN CAPITAL LETTER K
+                                                                                                       // U+0328 COMBINING OGONEK
+                                                                                                       // U+031B COMBINING HORN
+    key <AC05>  { [ question          , questiondown      , U0312             , U0314             ] }; // U+003F QUESTION MARK
+                                                                                                       // U+00BF INVERTED QUESTION MARK
+                                                                                                       // U+0312 COMBINING TURNED COMMA ABOVE
+                                                                                                       // U+0314 COMBINING REVERSE COMMA ABOVE (???)
+    key <AC06>  { [ exclam            , exclamdown        , U0329             , U20D3             ] }; // U+0021 EXCLAMATION MARK
+                                                                                                       // U+00A1 INVERTED EXCLAMATION MARK
+                                                                                                       // U+0329 COMBINING VERTICAL LINE BELOW
+                                                                                                       // U+20D3 COMBINING SHORT VERTICAL LINE OVERLAY
+    key <AC07>  { [ n                 , N                 , U00B7             , U2116             ] }; // U+006E LATIN SMALL LETTER N
+                                                                                                       // U+004E LATIN CAPITAL LETTER N
+                                                                                                       // U+00B7 MIDDLE DOT
+                                                                                                       // U+2116 NUMERO SIGN
+    key <AC08>  { [ q                 , Q                 , NoSymbol          , NoSymbol          ] }; // U+0071 LATIN SMALL LETTER Q
+                                                                                                       // U+0051 LATIN CAPITAL LETTER Q
+                                                                                                       //   na
+                                                                                                       //   na
+    key <AC09>  { [ t                 , T                 , NoSymbol          , trademark         ] }; // U+0074 LATIN SMALL LETTER T
+                                                                                                       // U+0054 LATIN CAPITAL LETTER T
+                                                                                                       //   na
+                                                                                                       // U+2122 TRADE MARK SIGN
+    key <AC10>  { [ w                 , W                 , U20A9             , U0483             ] }; // U+0077 LATIN SMALL LETTER W
+                                                                                                       // U+0057 LATIN CAPITAL LETTER W
+                                                                                                       // U+20A9 WON SIGN
+                                                                                                       // U+0483 COMBINING CYRILLIC TITLO
+    key <AC11>  { [ z                 , Z                 , U20B4             , U0336             ] }; // U+007A LATIN SMALL LETTER Z
+                                                                                                       // U+005A LATIN CAPITAL LETTER Z
+                                                                                                       // U+20B4 HRYVNIA SIGN
+                                                                                                       // U+0336 COMBINING LONG STROKE OVERLAY
+    key <BKSL>  { [ equal             , asterisk          , notequal          , emdash            ] }; // U+003D EQUALS SIGN
+    // PC105 keyboard only              multiply                                                       // U+002A ASTERISK
+                                                                                                       // U+2260 NOT EQUAL TO
+                                                                                                       // U+2014 EM DASH, — (tiret cadratin)
+
+    // | LFSH │ LSGT │ AB01 │ AB02 │ AB03 │ AB04 │ AB05 │ AB06 │ AB07 │ AB08 │ AB09 │ AB10 │ RTSH |
+    // | :50  | :94  | :52  | :53  | :54  | :55  | :56  | :57  | :58  | :59  | :60  | :61  | :62  |
+    // |      │ C ©  │ F ¦  │ I    │ L ˛  │ ;    │ "    │ : ˙  │ O °  │ R ®  │ U    │ X    │      │
+    // |      │ c ¢  │ f £  │ i    │ l    │ , ¸  │ '    │ . ̣   │ o ¤  │ r ₹  │ u µ  │ x    │      │
+
+    //              NORMAL            , SHIFT             , MODE              , MODE + SHIFT      , ALTGR             , ALTGR + SHIFT     ,
+//  key <LFSH>  { [ Shift_L           ,                   ,                   ,                   ] }; //
+//  key <SHFT>  { [                   ,                   ,                   ,                   ] }; //
+                                                                                                       //
+                                                                                                       //
+                                                                                                       //
+    key <LSGT>  { [ c                 , C                 , cent              , copyright         ] }; // U+0063 LATIN SMALL LETTER C
+    // PC105 keyboard only                                                                             // U+0043 LATIN CAPITAL LETTER C
+                                                                                                       // U+00A2 CENT SIGN
+                                                                                                       // U+00A9 COPYRIGHT SIGN
+    key <AB01>  { [ f                 , F                 , sterling          , brokenbar         ] }; // U+0066 LATIN SMALL LETTER F
+                                                                                                       // U+0046 LATIN CAPITAL LETTER F
+                                                                                                       // U+00A3 POUND SIGN
+                                                                                                       //   na
+    key <AB02>  { [ i                 , I                 , U0321             , U0322             ] }; // U+0069 LATIN SMALL LETTER I
+                                                                                                       // U+0049 LATIN CAPITAL LETTER I
+                                                                                                       // U+0321 COMBINING PALATALIZED HOOK BELOW
+                                                                                                       // U+0322 COMBINING RETROFLEX HOOK BELOW
+    key <AB03>  { [ l                 , L                 ,  dead_cedilla     , dead_ogonek       ] }; // U+006C LATIN SMALL LETTER L
+                                                                                                       // U+004C LATIN CAPITAL LETTER L
+                                                                                                       // U+0327 COMBINING CEDILLA
+                                                                                                       // U+0309 COMBINING HOOK ABOVE
+    key <AB04>  { [ comma             , semicolon         , U0326             , U0313             ] }; // U+002C COMMA
+                                                                                                       // U+003B SEMICOLON
+                                                                                                       // U+0326 COMBINING COMMA BELOW
+                                                                                                       // U+0313 COMBINING COMMA ABOVE
+    key <AB05>  { [ apostrophe        , quotedbl          , U030D             , U030E             ] }; // U+0027 APOSTROPHE
+                                                                                                       // U+0022 QUOTATION MARK
+                                                                                                       // U+030D COMBINING VERTICAL LINE ABOVE
+                                                                                                       // U+030E COMBINING DOUBLE VERTICAL LINE ABOVE
+    key <AB06>  { [ period            , colon             , dead_belowdot     , dead_abovedot     ] }; // U+002E FULL STOP
+                                                                                                       // U+003A COLON
+                                                                                                       // U+0323 COMBINING DOT BELOW
+                                                                                                       // U+0307 COMBINING DOT ABOVE
+    key <AB07>  { [ o                 , O                 , dead_currency     , degree            ] }; // U+006F LATIN SMALL LETTER O
+                                                                                                       // U+004F LATIN CAPITAL LETTER O
+                                                                                                       // U+00A4 CURRENCY SIGN
+                                                                                                       // U+00B0 DEGREE SIGN
+    key <AB08>  { [ r                 , R                 , U20B9             , registered        ] }; // U+0072 LATIN SMALL LETTER R
+                                                                                                       // U+0052 LATIN CAPITAL LETTER R
+                                                                                                       // U+20B9 INDIAN RUPEE SIGN
+                                                                                                       // U+00AE REGISTERED SIGN
+    key <AB09>  { [ u                 , U                 , mu                , NoSymbol          ] }; // U+0075 LATIN SMALL LETTER U
+                                                                                                       // U+0055 LATIN CAPITAL LETTER U
+                                                                                                       // U+00B5 MICRO SIGN
+                                                                                                       //   na
+    key <AB10>  { [ x                 , X                 , U0345             , NoSymbol          ] }; // U+0078 LATIN SMALL LETTER X
+    //              multiply                                                                           // U+0058 LATIN CAPITAL LETTER X
+                                                                                                       // U+0345 COMBINING GREEK YPOGEGRAMMENI
+                                                                                                       //   na
+//  key <AB11>  { [                   ,                   ,                   ,                   ] }; //
+                                                                                                       //
+                                                                                                       //
+                                                                                                       //
+//  key <RTSH>  { [ Shift_R           ,                   ,                   ,                   ] }; //
+                                                                                                       //
+                                                                                                       //
+                                                                                                       //
+
+    // | LCTL |  FN  | LWIN | LALT | SPCE | RALT | RWIN | COMP | RCTL |
+    // | :37  | :    | :133 | :64  | :65  | :108 | :134 | :135 | :105 |
+
+    //              NORMAL            , SHIFT             , MODE              , MODE + SHIFT      , ALTGR             , ALTGR + SHIFT     ,
+//  key <LCTL>  { [ Control_L         ,                   ,                   ,                   ] }; //
+                                                                                                       //
+                                                                                                       //
+                                                                                                       //
+//  key <FN>    { [                   ,                   ,                   ,                   ] }; //
+                                                                                                       //
+                                                                                                       //
+                                                                                                       //
+//  key <LWIN>  { [ Super_L           ,                   ,                   ,                   ] }; //
+                                                                                                       //
+                                                                                                       //
+                                                                                                       //
+//  key <LALT>  { [ Alt_L             ,                   ,                   ,                   ] }; //
+                                                                                                       //
+                                                                                                       //
+                                                                                                       //
+    key <SPCE>  { [ space             , space             , nobreakspace      , U202F             ] }; // U+0020 SPACE
+                                                                                                       // U+0020 SPACE
+                                                                                                       // U+00A0 NO-BREAK SPACE
+                                                                                                       // U+202F NARROW NO-BREAK SPACE
+//  key <RALT>  { [ Alt_R             ,                   ,                   ,                   ] }; //
+                                                                                                       //
+                                                                                                       //
+                                                                                                       //
+//  key <RWIN>  { [ Super_R           ,                   ,                   ,                   ] }; //
+    // Not always present                                                                              //
+                                                                                                       //
+                                                                                                       //
+//  key <COMP>  { [ Menu              ,                   ,                   ,                   ] }; //
+    //  <MENU>                                                                                         //
+                                                                                                       //
+                                                                                                       //
+//  key <RCTL>  { [ Control_R         ,                   ,                   ,                   ] }; //
+                                                                                                       //
+                                                                                                       //
+                                                                                                       //
+
+    // | PRSC │ SCLK │ PAUS │
+    // | :107 | :78  | :127 |
+
+    //              NORMAL            , SHIFT             , MODE              , MODE + SHIFT      , ALTGR             , ALTGR + SHIFT     ,
+//  key <PRSC>  { [ Print             , Sys_Req           ,                   ,                   ] }; //
+//  key <SCLK>  { [ Scroll_Lock       ,                   ,                   ,                   ] }; //
+//  key <PAUS>  { [ Pause             , Break             ,                   ,                   ] }; //
+
+    // | INS  │ HOME │>PGUP │
+    // | :118 | :110 | :112 |
+    // |>DELE │ END  │>PGDN │
+    // | :119 | :115 | :117 |
+
+    //              NORMAL            , SHIFT             , MODE              , MODE + SHIFT      , ALTGR             , ALTGR + SHIFT     ,
+//  key <INS>   { [ Insert            ,                   ,                   ,                   ] }; //
+//  key <HOME>  { [ Home              ,                   ,                   ,                   ] }; //
+    key <PGUP>  { [ Prior             , Prior             , Home              , Home              ] }; //
+    key <DELE>  { [ Delete            , Delete            , Insert            , Insert            ] }; //
+//  key <END>   { [ End               ,                   ,                   ,                   ] }; //
+    key <PGDN>  { [ Next              , Next              , End               , End               ] }; //
+
+    // |      │  UP  │      │
+    // |      | :111 |      |
+    // | LEFT │ DOWN │ RGHT │
+    // | :113 | :116 | :114 |
+
+    //              NORMAL            , SHIFT             , MODE              , MODE + SHIFT      , ALTGR             , ALTGR + SHIFT     ,
+    key <UP>    { [ Up                , Up                , Prior             , Prior             ] }; //
+    key <LEFT>  { [ Left              , Left              , Home              , Home              ] }; //
+    key <DOWN>  { [ Down              , Down              , Next              , Next              ] }; //
+    key <RGHT>  { [ Right             , Right             , End               , End               ] }; //
+
+    // | NMLK │ KPDV │ KPMU │ KPSU │
+    // | :77  | :106 | :63  | :82  |
+    // | KP7  │ KP8  │ KP9  │ KPAD │
+    // | :79  | :80  | :81  | :86  |
+    // | KP4  │ KP5  │ KP6  │  \/  │
+    // | :83  | :84  | :85  |      |
+    // | KP1  │ KP2  │ KP3  │ KPEN │
+    // | :87  | :88  | :89  | :104 |
+    // | KP0  \      │ KPDL │  \/  │
+    // | :90  /      | : 91 |      |
+
+    //              NORMAL            , SHIFT             , MODE              , MODE + SHIFT      , ALTGR             , ALTGR + SHIFT     ,
+    key <NMLK>  { [ Num_Lock          , Num_Lock          , Num_Lock          , Num_Lock          ] }; //
+    key <KPDV>  { [ KP_Divide         , KP_Divide         , division          , division          ] }; //
+    key <KPMU>  { [ KP_Multiply       , KP_Multiply       , multiply          , multiply          ] }; //
+//  key <KPSU>  { [ KP_Subtract       , KP_Subtract       ,                   ,                   ] }; //
+    key <KP7>   { [ KP_7              , KP_7              , KP_Home           , sevensuperior     ] }; //
+    key <KP8>   { [ KP_8              , KP_8              , KP_Up             , eightsuperior     ] }; //
+    key <KP9>   { [ KP_9              , KP_9              , KP_Prior          , ninesuperior      ] }; //
+//  key <KPAD>  { [ KP_Add            , KP_Add            ,                   ,                   ] }; //
+    key <KP4>   { [ KP_4              , KP_4              , KP_Left           , foursuperior      ] }; //
+    key <KP5>   { [ KP_5              , KP_5              , KP_Begin          , fivesuperior      ] }; //
+    key <KP6>   { [ KP_6              , KP_6              , KP_Right          , sixsuperior       ] }; //
+    key <KP1>   { [ KP_1              , KP_1              , KP_End            , onesuperior       ] }; //
+    key <KP2>   { [ KP_2              , KP_2              , KP_Down           , twosuperior       ] }; //
+    key <KP3>   { [ KP_3              , KP_3              , KP_Next           , threesuperior     ] }; //
+    key <KPEN>  { [ KP_Enter          , KP_Enter          , KP_Equal          , KP_Equal          ] }; //
+    key <KP0>   { [ KP_0              , KP_0              , KP_Insert         , zerosuperior      ] }; //
+    key <KPDL>  { [ KP_Decimal        , KP_Decimal        , KP_Delete         , KP_Separator      ] }; //
+//  key <KPEQ>  { [ KP_Equal          , KP_Equal          , KP_Equal          , KP_Equal          ] }; //
+
+    // | MUTE │ VOL- │ VOL+ │ POWR │
+    // | :121 | :122 | :123 | :124 |
+
+    //              NORMAL            , SHIFT             , MODE              , MODE + SHIFT      , ALTGR             , ALTGR + SHIFT     ,
+//  key <MUTE>  { [ XF86AudioMute     , XF86AudioMute     ,                   ,                   ] }; //
+//  key <VOL->  { [ XF86AudioLowerVolume , XF86AudioLowerVolume ,             ,                   ] }; //
+//  key <VOL+>  { [ XF86AudioRaiseVolume , XF86AudioRaiseVolume ,             ,                   ] }; //
+//  key <POWR>  { [ XF86PowerOff      , XF86PowerOff      ,                   ,                   ] }; //
+
+};
+
+partial alphanumeric_keys
+xkb_symbols "sirius" {
+
+    include "wm(basic)"
+
+    name[Group1]= "Cfilorux (Tuxedo Sirius 16)";
+
+// /sys/class/leds/rgb:kbd_backlight
+
+// ,-----,------,------,------,------,------,------,------,------,------,------,------,------,---,------,------, ,------,------,------,------,
+// | ESC │ FK01 │ FK02 │ FK03 │ FK04 │ FK05 │ FK06 │ FK07 │ FK08 │ FK09 │ FK10 │ FK11 │ FK12 │   │ PRSC │ DELE │ | HOME │ END  │ PGDN │ PGUP │
+// | %   | %    | %    | %    | %    | %    | %    | %    | %    | %    | %    | %    | %    | % | %    | %    | | %    | %    | %    | %    |
+// +-----++-----++-----++-----+-+----+-+----+--+---+--+---+---+--+---+--+----+-+----+-+-----++---+------+------+ +------+------+------+------+
+// | TLDE │ AE01 │ AE02 │ AE03  │ AE04 │ AE05  │ AE06 │ AE07  │ AE08 │ AE09  │ AE10 │ AE11  │ AE12 │ BKSP      | | NMLK │ KPDV │ KPMU │ KPSU │
+// | %    | %    | %    | %     | %    | %     | %    | %     | %    | %     | %    | %     | %    | %         | | %    | %    | %    | %    |
+// +------++-----+-+----+-+-----+-+----+-+-----+-+----+-+-----+-+----+-+-----+-+----+-+-----+-+----+-+---------+ +------+------+------+------+
+// | TAB   │ AD01  │ AD02 │ AD03  │ AD04 │ AD05  │ AD06 │ AD07  │ AD08 │ AD09  │ AD10 │ AD11  │ AD12 │ RTRN    | | KP7  │ KP8  │ KP9  │ KPAD │
+// | %     | %     | %    | %     | %    | %     | %    | %     | %    | %     | %    | %     | %    | %       | | %    | %    | %    | %    |
+// +-------++------++-----++------++-----++------++-----++------++-----++------++-----++------++-----+-,       + +------+------+------+      |
+// | CAPS   │ AC01  │ AC02 │ AC03  │ AC04 │ AC05  │ AC06 │ AC07  │ AC08 │ AC09  │ AC10 │ AC11  │ BKSL  │       | | KP4  │ KP5  │ KP6  │      |
+// | %      | %     | %    | %     | %    | %     | %    | %     | %    | %     | %    | %     | %     |       | | %    | %    | %    |      |
+// +------+-+-----+-+----+-+-----+-+----+-+-----+-+----+-+-----+-+----+-+-----+-+----+-+-----+-+------++-------' +------+------+------+------+
+// | LFSH │ LSGT  │ AB01 │ AB02  │ AB03 │ AB04  │ AB05 │ AB06  │ AB07 │ AB08  │ AB09 │ AB10  │ RTSH   | ,------, | KP1  │ KP2  │ KP3  │ KPEN |
+// | %    | %     | %    | %     | %    | %     | %    | %     | %    | %     | %    | %     | %      | | UP   │ | %    | %    | %    | %    |
+// +------+-------+------+-------+------'-------'------'-------'------'-------+------+-------+-+------+ | %    | '------+------+------+      |
+// | LCTL |  FN   | LWIN | LALT  | SPCE                               | RALT  | COMP | RCTL    | ,------+------+------, | KP0  | KPDL │      |
+// | %    | %     | %    | %     | %                                  | %     | %    | %       | | LEFT │ DOWN │ RGHT │ | %    | %    |      |
+// '------'-------'------'-------'------------------------------------'-------'------'---------' | %    | %    | %    | '------'------'------'
+//                                                                                               '------'------'------'
+
+// Note : all keys are 'rgb:kbd_backlight', no per key RGB color available
+
+};
+
+partial keypad_keys
+xkb_symbols "stellaris" {
+
+    include "wm(basic)"
+
+    name[Group1]= "Cfilorux (Tuxedo Stellaris 16)";
+
+    //              NORMAL            , SHIFT             , MODE              , MODE + SHIFT      , ALTGR             , ALTGR + SHIFT     ,
+    key <KPSU>  { [ KP_Add            , KP_Add            , KP_Add            , KP_Add            , XF86KbdBrightnessUp   ] }; //
+    key <KPAD>  { [ KP_Subtract       , KP_Subtract       , KP_Subtract       , KP_Subtract       , XF86KbdBrightnessDown ] }; //
+
+// /sys/class/leds/rgb:kbd_backlight_%d
+
+// ,------,------,------,------,------,------,------,------,------,------,------,------,------,------,------,------,------,------,------,
+// | ESC  │ FK01 │ FK02 │ FK03 │ FK04 │ FK05 │ FK06 │ FK07 │ FK08 │ FK09 │ FK10 │ FK11 │ FK12 │ PGUP │ PGDN │ DELE │ PRSC │ KPAD │ KPSU │
+// | %105 | %106 | %107 | %108 | %109 | %110 | %111 | %112 | %113 | %114 | %115 | %116 | %117 | %118 | %119 | %120 | %121 | %122 | %123 |
+// +------+------++-----++-----+-+----+-+----+--+---+--+---+---+--+---+--+----+-+----+-+-----++-----++------+------+------+------+------+
+// | TLDE │ AE01  │ AE02 │ AE03  │ AE04 │ AE05  │ AE06 │ AE07  │ AE08 │ AE09  │ AE10 │ AE11  │ AE12 │ BKSP         | NMLK │ KPDV │ KPMU │
+// | %84  | %85   | %86  | %87   | %88  | %89   | %90  | %91   | %92  | %93   | %94  | %95   | %96  | %98          | %99  | %100 | %101 |
+// +------+-+-----+-+----+-+-----+-+----+-+-----+-+----+-+-----+-+----+-+-----+-+----+-+-----+-+----+-+------------+------+------+------+
+// | TAB    │ AD01  │ AD02 │ AD03  │ AD04 │ AD05  │ AD06 │ AD07  │ AD08 │ AD09  │ AD10 │ AD11  │ AD12 │ RTRN       | KP7  │ KP8  │ KP9  │
+// | %63    | %65   | %66  | %67   | %68  | %69   | %70  | %71   | %72  | %73   | %74  | %75   | %76  | %77        | %78  | %79  | %80  |
+// +--------++------++-----++------++-----++------++-----++------++-----++------++-----++------++-----+-,          +------+------+------+
+// | CAPS    │ AC01  │ AC02 │ AC03  │ AC04 │ AC05  │ AC06 │ AC07  │ AC08 │ AC09  │ AC10 │ AC11  │ BKSL  │          | KP4  │ KP5  │ KP6  │
+// | %42     | %44   | %45  | %46   | %47  | %48   | %49  | %50   | %51  | %52   | %53  | %54   | %55   |          | %57  | %58  | %59  |
+// +-------+-+-----+-+----+-+-----+-+----+-+-----+-+----+-+-----+-+----+-+-----+-+----+-+-----+-+-------+---,------+------+------+------+
+// | LFSH  │ LSGT  │ AB01 │ AB02  │ AB03 │ AB04  │ AB05 │ AB06  │ AB07 │ AB08  │ AB09 │ AB10  │ RTSH        |  UP  │ KP1  │ KP2  │ KP3  │
+// | %21   | %23   | %24  | %25   | %26  | %27   | %28  | %29   | %30  | %31   | %32  | %33   | %34         | %35  | %36  | %37  | %38  |
+// +-------+-------+------+-------+------'-------'------'-------'------'-------+------+-------'------,------+------+------+------+------+
+// | LCTL  |  FN   | LWIN | LALT  | SPCE                               | RALT  | COMP | RCTL         | LEFT │ DOWN │ RGHT │ KP0  | KPDL │
+// | light | %2    | %3   | %4    | %7                                 | %10   | %11  | %12          | %13  | %14  | %15  | %16  | %17  |
+// '-------'-------'------'-------'------------------------------------'-------'------'--------------'------'------'------'------'------'
+
+// Note : 'LCTL' is 'rgb:kbd_backlight', not 'rgb:kbd_backlight_1'
+// Note : no 'rgb:kbd_backlight_1'
+// Note : no 'rgb:kbd_backlight_18' to  'rgb:kbd_backlight_22'
+// Note : no 'rgb:kbd_backlight_39' to  'rgb:kbd_backlight_41'
+// Note : no 'rgb:kbd_backlight_43'
+// Note : no 'rgb:kbd_backlight_60' to  'rgb:kbd_backlight_62'
+// Note : no 'rgb:kbd_backlight_64'
+// Note : no 'rgb:kbd_backlight_81' to  'rgb:kbd_backlight_83'
+// Note : no 'rgb:kbd_backlight_102' to  'rgb:kbd_backlight_104'
+
+};
